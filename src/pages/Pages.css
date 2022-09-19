@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px 50px;
+  margin-left: 40px;
+}
+.btntraining:hover {
+  background-color: rgb(70, 165, 239);
+  color: white;
+}
+.yoverflow{
+  overflow: scroll;
+}
+.btnpages {
+  font-size: 1.4rem;
+  padding: 5px 15px;
+}
+.btnpagesfilter{
+    font-size: .9rem;
+    padding: 1px 5px; 
+    margin-left: 15px; 
+}
+.button {
+  font-size: 1.4rem;
+  border-radius: 20px;
+  background-color: red;
+  padding: 0px 10px;
+}
+.btnpages:hover {
+  background-color: black;
+  color: white;
+}
+@media screen and(max-width:400px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

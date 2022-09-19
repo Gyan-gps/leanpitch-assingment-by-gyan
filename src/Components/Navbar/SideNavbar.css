@@ -1,0 +1,34 @@
+li {
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  text-align: left;
+}
+.sideNavbar {
+  display: flex;
+  width: 20rem;
+  flex-direction: column;
+  align-self: flex-start;
+}
+li:hover {
+  background-color: yellow;
+  cursor: pointer;
+  color: black;
+}
+.btnstyle {
+  font-size: 1.5rem;
+  padding:0 20px;
+  margin-right: 1rem;
+  background-color: #3c3636;
+  border: none;
+  color: white;
+}
+.btnstyle:hover{
+    background-color: red;
+    color: black;
+}
+@media screen and (max-width:400px) {
+  .sideNavbar{
+    width: 10rem;
+  }
+}

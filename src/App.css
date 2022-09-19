@@ -1,0 +1,26 @@
+.App{
+  font-family: sans-serif;
+}
+
+.backImage{
+  background:linear-gradient(rgba(0,0,0,0.5)100%,rgba(0,0,0,0.3)100%) ,url("./storage/webinar.png");
+  height: 91vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.routes{
+  color: white;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.flexnav{
+  display: flex;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}

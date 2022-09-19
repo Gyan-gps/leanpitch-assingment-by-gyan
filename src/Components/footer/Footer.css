@@ -1,0 +1,32 @@
+.flex{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button{
+    margin-left:2rem;
+    font-size: 1.4rem;
+    border-radius:20px;
+    background-color: red;
+    padding: 0px 10px;
+}
+
+.colwidthleft{
+    width: 40%;
+}
+.colwidthright{
+    width: 60%;
+}
+@media screen and (max-width:400px) {
+    .flex{
+        flex-direction: column;
+    }
+    .colwidthleft{
+        width: 100%;
+    }
+    .colwidthright{
+        width: 100%;
+    }
+}
